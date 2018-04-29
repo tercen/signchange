@@ -1,5 +1,5 @@
 PackratFormat: 1.4
-PackratVersion: 0.4.8.52
+PackratVersion: 0.4.9.2
 RVersion: 3.3.2
 Repos: CRAN=http://cran.rstudio.com/
 
@@ -15,8 +15,8 @@ Hash: b2366cd9d2f3851a5704b4e192b985c2
 
 Package: Rcpp
 Source: CRAN
-Version: 0.12.13
-Hash: b9d8d89ff10ca2d8bfdaccdf83045ba1
+Version: 0.12.14
+Hash: f9a2a481350397e53b0768bf488329cd
 
 Package: assertthat
 Source: CRAN
@@ -31,7 +31,7 @@ Hash: e3a02070cf705d3ad1c5af1635a515a3
 Package: bindrcpp
 Source: CRAN
 Version: 0.2
-Hash: e011aef1e6b2f8ff15d833f56abcf0ba
+Hash: 7f7dcd1dc351f84798fd3dc4eb8a0e78
 Requires: Rcpp, bindr, plogr
 
 Package: cli
@@ -47,13 +47,13 @@ Hash: ff2840dd9b0d563fc80377a5a45510cd
 
 Package: curl
 Source: CRAN
-Version: 3.0
-Hash: fb0029f1c84bf9b510c4f55cda7103f1
+Version: 3.1
+Hash: 877149b42d479b93ab15d5cef46c0f1b
 
 Package: dplyr
 Source: CRAN
 Version: 0.7.4
-Hash: 8f4e0074ac488385f084e27bf6f54d41
+Hash: e1c300a22e22086568531c9d0c93bafc
 Requires: BH, R6, Rcpp, assertthat, bindrcpp, glue, magrittr,
     pkgconfig, plogr, rlang, tibble
 
@@ -90,12 +90,16 @@ Hash: 3858537ac10388a5db1687450908f257
 
 Package: packrat
 Source: github
-Version: 0.4.8-52
-Hash: 7f9597c44599820158b7dd1693153db9
+Version: 0.4.9-2
+Hash: c73cc03ba66369a5791221307ff811c6
 GithubRepo: packrat
 GithubUsername: rstudio
 GithubRef: master
-GithubSha1: 4b3e4025404f98d25fb73799e86c1762effe5d7e
+GithubSha1: f18e2607af2935508d7f04ac91d96b5f3bfe09ae
+RemoteHost: https://api.github.com
+RemoteRepo: packrat
+RemoteUsername: rstudio
+RemoteSha: f18e2607af2935508d7f04ac91d96b5f3bfe09ae
 
 Package: pillar
 Source: CRAN
@@ -127,6 +131,10 @@ GithubRepo: TSON
 GithubUsername: tercen
 GithubRef: 1.4.2-rtson
 GithubSha1: 29e08ba9da3a2838a73a973404a43f77f9232c3b
+RemoteHost: https://api.github.com
+RemoteRepo: TSON
+RemoteUsername: tercen
+RemoteSha: 29e08ba9da3a2838a73a973404a43f77f9232c3b
 GithubSubdir: rtson
 
 Package: tercen
@@ -138,6 +146,10 @@ GithubRepo: teRcen
 GithubUsername: tercen
 GithubRef: 0.6.2
 GithubSha1: 13949d4bbee02425b400a48b27d9554046c0a083
+RemoteHost: https://api.github.com
+RemoteRepo: teRcen
+RemoteUsername: tercen
+RemoteSha: 13949d4bbee02425b400a48b27d9554046c0a083
 
 Package: tibble
 Source: CRAN
