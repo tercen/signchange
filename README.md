@@ -11,7 +11,7 @@ Input projection|.
 
 Output relations|.
 ---|---
-`negates`| numeric, the opposite sign of the value
+`signchange`| numeric, the opposite sign of the value
 
 ##### Details
 The negates operator changes the sign of the data value.
