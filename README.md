@@ -14,7 +14,7 @@ Output relations|.
 `signchange`| numeric, the opposite sign of the value
 
 ##### Details
-The negates operator changes the sign of the data value.
+The `sigchange` operator changes the sign of the data by negating the value.
 
 
 #### References
