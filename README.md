@@ -1,16 +1,30 @@
-# negate
+# signchange operator
 
-changes the sign of the values
+#### Description
+`signchange` operator negates the data value, i.e. sign changes
 
-# Repository
-```
-https://github.com/tercen/signchange_operator.git
-```
+##### Usage
+Input projection|.
+---|---
+`y-axis` | value of data to be sign changed
 
-# Feedback
 
-* Log feedback/issues at (https://github.com/tercen/signchange_operator/issues)
+Output relations|.
+---|---
+`negates`| numeric, the opposite sign of the value
 
-# Documentation
+##### Details
+The negates operator changes the sign of the data value.
 
-* see doc directory
+
+#### References
+
+##### See Also
+
+#### Examples
+
+
+
+
+ 
+ 
